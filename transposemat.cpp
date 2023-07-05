@@ -9,6 +9,7 @@ int main()
     cin >> n1;
 
     int arr[m1][n1];
+   
     cout << "Enter the first matrices elements" << endl;
     for (int i = 0; i < m1; i++)
     {
@@ -18,7 +19,10 @@ int main()
             scanf("%d", &arr[i][j]);
         }
     }
+
     cout << "Transpose matrices will be: " << endl;
+  
+
     for (int i = 0; i < n1; i++)
     {
         for (int j = 0; j < m1; j++)
