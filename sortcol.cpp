@@ -26,7 +26,7 @@ int main()
         cout << endl;
     }
 
-    for (int i = 0; i < rows - 1; i++)
+    for (int i = 0; i < rows; i++)
     {
         for (int k = 0; k < rows - 1; k++)
         {
