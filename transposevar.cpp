@@ -13,6 +13,11 @@ int main()
         cout << "Enter the " << i + 1 << " rows" << endl;
         for (int j = 0; j < col; j++)
         {
+            int condition = (rows%2==0)? (rows/2):(rows/2+10);
+            if ( j == condition)
+
+
+
             cin >> mat[i][j];
         }
     }
