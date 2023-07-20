@@ -10,7 +10,7 @@ int main()
             sum = 0;
             for (int k = 0; k < 3; k++)
             {
-                // cout<<sum<<endl;
+                
                 sum = sum + arr1[j][k] * arr2[k][i];
             }
             arr3[j][i]= sum;
